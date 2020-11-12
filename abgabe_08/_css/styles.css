@@ -27,7 +27,7 @@ aside {
     right: 10px;
 }
 /***************** header *****************/
-header {
+.header-main {
     height: 100vh;
     background-color: rgba(255,255,255,1);;  
     background-image: url('../_img/photo-1501426026826-31c667bdf23d.webp');

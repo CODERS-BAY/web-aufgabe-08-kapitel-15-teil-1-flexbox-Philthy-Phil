@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+    scroll-behavior: smooth;
+    /* border: 1px solid red; */
+}
+/***************** masonry grid setup *****************/
+.grid {
+    padding: 2rem;
+}
+.grid-container {
+    display: grid;                                                
+    grid-gap: 1rem;                                               
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));  
+}
+.short {
+    grid-row: span 1;       
+}
+.tall {
+    grid-row: span 2;
+}
+.taller {
+    grid-row: span 3;
+}
+.tallest {
+    grid-row: span 4;
+}
+.grid-item {
+    display: flex;
+    min-height: 250px;
+    justify-content: center;
+    align-items: center;
+}
+/* .grid-item:nth-child(odd) {
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(0, 0, 0, 1);
+}
+.grid-item:nth-child(even) {
+    background-color: rgba(255,255,255,1);
+    border: 1px solid rgba(0, 0, 0, 1);
+} */
+
+/***************** masonry grid img setup *****************/
+#grid-img-1 { 
+    background-image: url('../_img/holliday_pics/photo-1499362514991-924bf09ef7fe.webp');
+    background-size: cover;
+}
+#grid-img-2 { 
+    background-image: url('../_img/holliday_pics/photo-1501497753478-0c646ed709da.webp');
+    background-size: cover;
+}
+#grid-img-3 { 
+    background-image: url('../_img/holliday_pics/photo-1518903872200-56e0389d9e41.webp');
+    background-size: cover;
+}
+#grid-img-4 { 
+    background-image: url('../_img/holliday_pics/photo-1547290950-3e709d63149e.webp');
+    background-size: cover;
+}
+#grid-img-5 { 
+    background-image: url('../_img/holliday_pics/photo-1548238953-ef404ef937b2.webp');
+    background-size: cover;
+}
+#grid-img-6 { 
+    background-image: url('../_img/holliday_pics/photo-1552944022-ce9e85a5c762.webp');
+    background-size: cover;
+}#grid-img-7 { 
+    background-image: url('../_img/holliday_pics/photo-1565358355316-7968b6f47b3f.webp');
+    background-size: cover;
+}
+#grid-img-8 { 
+    background-image: url('../_img/holliday_pics/photo-1569585511802-b2c607cbbbbf.webp');
+    background-size: cover;
+}
+#grid-img-9 { 
+    background-image: url('../_img/holliday_pics/photo-1570897859685-a1078823d460.webp');
+    background-size: cover;
+}
+#grid-img-10 { 
+    background-image: url('../_img/holliday_pics/photo-1570900808791-d530855f79e3.webp');
+    background-size: cover;
+}
+.grid-item a {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(243,18,100,0);
+    color: rgba(255, 255, 255, 0);
+    justify-content: center;
+    align-items: center;
+}
+.grid-item a:hover {
+    background-color: rgba(243,18,100,0.75);
+    color: rgba(255, 255, 255, 1);
+    justify-content: center;
+    align-items: center;
+}
